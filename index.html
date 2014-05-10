@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<section class="content">
+    <h1 class="site-title">Alstroemeria</h1>
+    <p>I’m Jacky. I am a passionate engineer with high intellectual curiosity and proven problem solving skills. I have 5 years of software experience and passionately seek to learn more about mobile and web development platforms. Passionate about beautiful software with an emphasis on effective & pleasurable user experiences. Driven and eager to quickly adapt to new technologies. I seek to take on ambitious projects to learn more about the underlying technology. Sometimes I post works on <a title="My Instructables account" href="http://www.instructables.com/member/alstroemeria/" target="_blank">instructables</a> and things that inspire me on my <a title="My intrests" href="http://isinvisible.tumblr.com/" target="_blank">tumblr</a>.</p>
+
+    <section class="works">
+
+        {% for post in site.posts %}
+          <article>
+            <style>.{{post.name}}:hover { color:{{post.color}}; }</style>
+            <a class="js-project-link {{post.name}}" href="#" data-target={{post.name}}>
+                <h1 class="work-title">{{post.title}}</h1>
+            </a>
+            <h2 class="work-subtitle">{{post.subtitle}}</h2>    
+          </article>
+
+          <article id={{post.name}} class="project">
+            <div class="main">
+                <header>
+                    <a class="close" href="#" rel="home" title="Back to homepage"><span class="icon-close"></span></a>
+                </header>
+                <section class="content">
+                    <h1>{{post.title}}</h1>
+                    <ul class="informations">
+                        <li><span>Work </span>Apple</li>
+                        <li><span>Technology </span>WebGL</li>
+                        <li><span>Year </span>2014</li>
+                    </ul>
+
+                    <article class="post-content">
+                      {{post.content}}
+                    </article>
+                    <!-- <img src="" title="" alt="Posters"> -->        
+                </section>
+            </div>
+          </article>
+        {% endfor %}
+    </section>
+</section> 

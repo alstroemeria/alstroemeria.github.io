@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://themes.googleusercontent.com/static/fonts/montserrat/v4/zhcz-_WihjSQC0oHJ9TCYBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Serif'), local('PTSerif-Regular'), url(http://themes.googleusercontent.com/static/fonts/ptserif/v6/sDRi4fY9bOiJUbgq53yZCfesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+
+[class^="icon-"],[class*=" icon-"] {
+    font-family: 'FontAwesome';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+    content: "\f104";
+}
+
+.icon-logo:before {
+    content: "\f006";
+}
+
+a {
+    -moz-transition: color 400ms ease-out;
+    -webkit-transition: color 400ms ease-out;
+    transition: color 400ms ease-out;
+    color: black;
+}
+
+a:active,a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+h1,h2,h3 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.7em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.50em;
+    color: #777;
+    font-family: 'PT Serif', serif;
+}
+
+.main {
+    padding: 9.1em 9.1em 2.7em;
+    max-width: 99.1em;
+}
+
+.wrap {
+    position: relative;
+    min-height: 100%;
+}
+
+.logo,.close {
+    font-size: 2.7em;
+    color: black;
+}
+
+.logo:hover,.close:hover {
+    color: gray;
+}
+
+.logo:active,.logo:visited,.close:active,.close:visited {
+    color: black;
+}
+
+.content {
+    padding: 9.1em 0 0 11.8em;
+}
+
+.site-title {
+    margin-bottom: 2.26em;
+}
+
+.works {
+    padding: 9.1em 0;
+}
+
+.work-title {
+    font-size: 1.6em;
+    letter-spacing: 0.2em;
+    margin-bottom: 0.3em;
+}
+
+.work-subtitle {
+    font-family: 'PT Serif', serif;
+    font-size: 1.2em;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #777;
+}
+
+article {
+    margin-bottom: 2.6em;
+}
+
+.project {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-height: 100%;
+    background: white;
+    display: none;
+    z-index: 999999;
+}
+
+.project img {
+    margin-bottom: 4em;
+    max-width: 691px;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.project img:last-child {
+    margin-bottom: 13.1em;
+}
+
+.informations {
+    margin: 6.1em 0 8.1em 0;
+}
+
+.informations li {
+    font-size: 1.2em;
+    padding-left: 13.33em;
+    margin-bottom: 0.8em;
+    line-height: 1.5em;
+    color: #777;
+    font-family: 'PT Serif', serif;
+}
+
+.informations span {
+    font-size: 1.33em;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: 10em;
+    margin-left: -10em;
+    display: inline-block;
+}
+
+.informations a {
+    color: #777;
+}
+
+.informations a:after {
+    content: " → ";
+}
+
+small {
+    padding-left: 11.8em;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 1.5em;
+    color: #777;
+}
+
+@-webkit-keyframes blink {
+    from,to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #ea002a;
+    };
+}
+
+@-moz-keyframes blink {
+    from,to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #ea002a;
+    };
+}
+
+@keyframes blink {
+    from,to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #ea002a;
+    };
+}
+
+a.credits {
+    color: #777;
+    border-right: 1px solid #ea002a;
+    -webkit-animation: 1200ms blink step-end infinite;
+    -moz-animation: 1200ms blink step-end infinite;
+    animation: 1200ms blink step-end infinite;
+    padding-right: 2px;
+}
+
+a.credits:hover {
+    color: black;
+}
+
+@media screen and (max-width: 43.75em) {
+    .main {
+        padding: 4.55em 4.55em 2.7em;
+        max-width: 99.1em;
+    }
+
+    .content {
+        padding: 4.55em 0 0 5.9em;
+    }
+
+    small {
+        padding-left: 5.9em;
+    };
+}
+
+@media screen and (max-width: 33.75em) {
+    .main {
+        padding: 3em;
+        max-width: 100%;
+    }
+
+    .content {
+        padding: 5em 0 0 0;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .informations {
+        margin: 5em 0 7em 0;
+    }
+
+    .informations li {
+        padding-left: 0;
+        margin-bottom: 1.5em;
+    }
+
+    .informations span {
+        font-size: 1.33em;
+        width: auto;
+        margin-left: 0;
+        display: block;
+    }
+
+    .informations a {
+        color: #777;
+    }
+
+    .informations a:after {
+        content: " → ";
+    }
+
+    small {
+        padding-left: 0em;
+    };
+}
+
+html, body { width: 100%; height: 100%; }
+html { font-size: 16px; }
+body { font-size: 62.5%; }
