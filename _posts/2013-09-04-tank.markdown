@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Mr. Tank"
+subtitle:  "My paper robot"
+date:   2014-05-18
+categories: arduino papercraft c++
+name: "tank"
+color: "#27ae60"
+link: http://www.instructables.com/id/RC-Paper-Tank-Bring-your-3D-models-to-life/
+---
+
+Check out the [instructable][tank] for more info on how to this was made
+
+![tank](http://cdn.instructables.com/FQ4/Z41G/HL5EMD4E/FQ4Z41GHL5EMD4E.MEDIUM.gif)
+![tank](http://cdn.instructables.com/FIW/NN8R/HL5EMC58/FIWNN8RHL5EMC58.MEDIUM.jpg)
+![tank](http://cdn.instructables.com/FIG/FS1N/HL5EMC32/FIGFS1NHL5EMC32.MEDIUM.jpg)
+![tank](http://cdn.instructables.com/FKT/ZGGI/HL5EMC35/FKTZGGIHL5EMC35.MEDIUM.jpg)
+![tank](http://cdn.instructables.com/FA6/C7TS/HL5EMC3U/FA6C7TSHL5EMC3U.MEDIUM.jpg)
+![tank](http://cdn.instructables.com/FHB/XKL8/HL5EMC3X/FHBXKL8HL5EMC3X.MEDIUM.jpg)
+![tank](http://cdn.instructables.com/FJQ/MGJ9/HL5EMC49/FJQMGJ9HL5EMC49.MEDIUM.jpg)
+![tank](http://cdn.instructables.com/FQI/F0XL/HL5EMC52/FQIF0XLHL5EMC52.MEDIUM.jpg)
+![tank](http://cdn.instructables.com/F4D/M0RC/HL5EMC5D/F4DM0RCHL5EMC5D.MEDIUM.jpg)
+
+[tank]: http://www.instructables.com/id/RC-Paper-Tank-Bring-your-3D-models-to-life

@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Seven Segments"
+subtitle:  "A beautiful clock"
+date:   2013-08-06
+categories: instructables arduino
+name: "clock"
+color: "#16a085"
+link: http://www.instructables.com/id/DigitalAnalog-Clock-Arduino-PaperCraft/
+---
+
+Check out the [instructable][clock] for more info on how to this was made
+
+![clock](http://cdn.instructables.com/FI0/ECQA/HJUWSE0V/FI0ECQAHJUWSE0V.MEDIUM.jpg)
+![clock](http://cdn.instructables.com/FSP/3W39/HJUWSG7D/FSP3W39HJUWSG7D.MEDIUM.jpg)
+![clock](http://cdn.instructables.com/FHE/5TVI/HJUWSDBA/FHE5TVIHJUWSDBA.MEDIUM.jpg)
+![clock](http://cdn.instructables.com/FVM/23V4/HJUWSDBQ/FVM23V4HJUWSDBQ.MEDIUM.jpg)
+![clock](http://cdn.instructables.com/F8I/LHDY/HJUWSDCU/F8ILHDYHJUWSDCU.MEDIUM.jpg)
+![clock](http://cdn.instructables.com/FQH/UIDK/HJUWSDE1/FQHUIDKHJUWSDE1.MEDIUM.jpg)
+![clock](http://cdn.instructables.com/FIA/S335/HJUWSDE6/FIAS335HJUWSDE6.MEDIUM.jpg)
+
+[clock]: http://www.instructables.com/id/DigitalAnalog-Clock-Arduino-PaperCraft
+
+
+

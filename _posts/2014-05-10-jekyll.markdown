@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Jekyll and I"
+subtitle:  "Unpacking after a long awaited move"
+date:   2014-05-10
+categories: Github Pages Jekyll html css Ruby
+name: "jekyll"
+color: "#8e44ad"
+---
+
+My site has been redesigned from the ground up and is now hosted on [Github Pages]. This time I am psudo-blogging using [Jekyll]. For all of you who have not seen this domain's earlier days, it was your typical parallax bootstraped portfolio site filled with encouraging words and marquee elements (not really). Moving away from the norm, and taking advantage of the web experience I have acquired over at Pivotal Labs, I am seeking refuge in this ultra minimalist design.
+
+Jekyll is really light weight and simple to work with. Every post is formatted using markdown. The workflow is very simple. Make a new file in the ```_posts``` folder, and write in markdown. Run the command ```jekyll serve``` and it'll be viewable on your local host. 
+
+One problem is you need to have ruby installed on your local machine. As rails devlopers know, installing ruby anything on a Windows machine is quite the heartache. Thankfully, I can use [nitrous.io][nitrous io] to work on a virtual linux machine within my browser from anywhere in the world. Site components are very similar to frontend ruby on rails layouts in syntax and conventions. I would highly recommend trying it out. 
+
+
+[github pages]:https://pages.github.com/
+[nitrous io]:https://www.nitrous.io/
+[jekyll]:http://jekyllrb.com/
+
+    
