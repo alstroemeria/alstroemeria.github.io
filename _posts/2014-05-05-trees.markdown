@@ -8,11 +8,12 @@ name: "trees"
 link: http://alstroemeria.github.io/algorithmic-botany
 color: "#e74c3c"
 ---
-The beauty of plants has attracted the attention of mathematics for centries. A question arose one day about how a tree would be drawn programagically. My first though was that it would be a recursive algortihm of drawing branches and child branches. This solution works but it offers complexity and is not general enough for re-use in similar applications. However, when i found this [site][algorithmic botany], I was  introduced to a whole new approach, the Lindenmayer System. 
 
-> The central concept of L-systems is that of rewritting. In general, rewritting is a technique for defining complex objects by sucessively replacing parts of a single initial object using a set of rewritting rules of productions.
+![tree](http://i.imgur.com/I9u0VsV.jpg)
+The beauty of plants has attracted the attention of mathematics for centuries. A question arose one day about how a tree would be drawn programagically. My first though was that it would be a recursive algorithm of drawing branches and child branches. This solution works but it offers complexity and is not general enough for re-use in similar applications. However, when i found this [site][algorithmic botany], I was introduced to a whole new approach, the Lindenmayer System. The central concept of L-systems is that of rewriting. In general, rewriting is a technique for defining complex objects by successively replacing parts of a single initial object using a set of rewriting rules of productions.
+    
+After reading more into this, I decided I want to apply these concepts to a project. I decided I wanted this to be available on the web. In this way people would be able to learn about coding for an L-systems and experiment with their own designs. But, first I had to [learn][udacity] [three.js]. Learning about three.js was fun too, but this is another story for another project in my head. After a few iterations, the prototype is now [done][tree].
 
-After reading  more into this, i decided i want to apply these concepts to a project. I decided i wanted this to be available on the web. In this way people would be able to learn about coding for an L-systems and experiment with their own designs. But, first i had to [learn][udacity] [three.js]. Learning about three.js was fun too, but this is another story for another project in my head. After a few iterations, the prototype is now [done][tree].
 
 
 [algorithmic botany]:http://algorithmicbotany.org/

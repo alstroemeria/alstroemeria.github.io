@@ -6,6 +6,7 @@ date:   2014-05-10
 categories: Github Pages Jekyll html css Ruby
 name: "jekyll"
 color: "#8e44ad"
+link: https://alstroemeria.github.io
 ---
 
 My site has been redesigned from the ground up and is now hosted on [Github Pages]. This time I am psudo-blogging using [Jekyll]. For all of you who have not seen this domain's earlier days, it was your typical parallax bootstraped portfolio site filled with encouraging words and marquee elements (not really). Moving away from the norm, and taking advantage of the web experience I have acquired over at Pivotal Labs, I am seeking refuge in this ultra minimalist design.

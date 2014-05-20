@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="content">
     <h1 class="site-title">Alstroemeria</h1>
-    <p>I'm Jacky, a Computer Engineering student from the University of Waterloo. I am passionate about beautiful software with an emphasis on effective & pleasurable user experiences. Most recently, I have been working at <a title="Work Term" href="http://pivotallabs.com/">Pivotal Labs</a> learning about agile metholodogies and applying them to mobile and web solutions. When im not writing software, i am busy crafting. Sometimes I post works on <a title="My Instructables account" href="http://www.instructables.com/member/alstroemeria/" target="_blank">instructables</a> and things that inspire me on my <a title="My tumblr" href="http://arvernis.tumblr.com/" target="_blank">tumblr</a>. Lets make something together. </p>
+    <p>I'm Jacky, a Computer Engineering student from the University of Waterloo. I am passionate about beautiful software with an emphasis on effective & pleasurable user experiences. Most recently, I have been working at <a title="Work Term" href="http://pivotallabs.com/">Pivotal Labs</a> where I learned about applying agile metholodogies to mobile and web solutions. When not writing software, I find myself crafting. Sometimes I post works on <a title="My Instructables account" href="http://www.instructables.com/member/alstroemeria/" target="_blank">instructables</a> and things that inspire me on my <a title="My tumblr" href="http://arvernis.tumblr.com/" target="_blank">tumblr</a>. Let's make something together. </p>
 
     <section class="works">
 
@@ -25,7 +25,7 @@ layout: default
                     <h1>{{post.title}}</h1>
                     <ul class="informations">                       
                         <li><span>When </span>{{post.date | date: "%B %Y" }}</li>
-                        <li><span>Preview</span><a href="{{ post.link }}">demo</a> </li>
+                        <li><span>Preview</span><a href="{{ post.link }}">{{ post.link }}</a> </li>
                         <li><span>Categories</span>{{ post.categories | join: ', ' }} </li>
                     </ul>
 
