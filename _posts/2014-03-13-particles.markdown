@@ -6,7 +6,7 @@ date:   2014-03-13
 categories: Processing Particles
 name: "particular"
 color: "#2980b9"
-link: https://www.khanacademy.org/cs/particular/5469568509149184
+link: /processing-sketches/Particles/web-export/
 ---
 <iframe width="640" height="480" src="//www.youtube.com/embed/ucROmtWcZ9A" frameborder="0"></iframe>
 
@@ -16,6 +16,7 @@ I recently discovered processing, a programming language, development environmen
 
 I implemented a very simply particular system with thousands nodes each having their own characteristics. Interactions on the canvas bring the particles to life. Using some basic physics, the effect I got is incredibly dramatic and smooth. I haven't experienced such immediate gratification since discovering Mandelbrot and Julia sets in grade 10. 
 
-Processing turned out to be very popular. It has a JavaScript port which makes it easy to share sketches on the web. Khan Academy's programs written by students also uses a variation on processing.js for their online programming exercises. I decided to port my java version here as well.
+Processing turned out to be very popular. It has a JavaScript port which makes it easy to share sketches on the web. Khan Academy's programs written by students also uses a variation on processing.js for their online programming [exercises]. I decided to port my java version here as well.
 
 [processing]:http://www.processing.org/
+[exercise]:https://www.khanacademy.org/cs/particular/5469568509149184
