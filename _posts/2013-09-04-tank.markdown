@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Mr. Tank"
-subtitle:  "My paper robot"
+title:  "Type Red"
+subtitle:  "Papercrafted robotics"
 date:   2014-05-18
 categories: arduino papercraft c++
 name: "tank"
