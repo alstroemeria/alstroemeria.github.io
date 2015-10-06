@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Stardust"
+subtitle:  "Noise accelerated particle systems"
+date:   2015-10-01
+categories: three.js html css greensock
+name: "stardust"
+color: "#2980b9"
+link: https://alstroemeria.github.io/stardust
+---
+
+![link](/assets/stardust.png)
+
+[stardust]:https://alstroemeria.github.io/stardust
