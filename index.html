@@ -32,6 +32,27 @@ layout: default
                     <article class="post-content">
                       {{post.content}}
                     </article>
+                    
+                      <div id="fb-root"></div>
+                      <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.donate.js#xfbml=1&version=v3.1&appId=1999603280265339";
+                        fjs.parentNode.insertBefore(js, fjs);
+                      }(document, 'script', 'facebook-jssdk'));</script>
+                      <div class="fb-donate" data-href="https://www.facebook.com/stjude/"></div>
+                    
+                      <div id="fb-root"></div>
+                      <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "https://connect.internmc.facebook.net/en_US/sdk/xfbml.donate.js#xfbml=1&version=v3.1&appId=1999603280265339";
+                        fjs.parentNode.insertBefore(js, fjs);
+                      }(document, 'script', 'facebook-jssdk'));</script>
+                      <div class="fb-donate" data-href="https://www.facebook.com/stjude/"></div>
+                    
                     <!-- <img src="" title="" alt="Posters"> -->        
                 </section>
             </div>
